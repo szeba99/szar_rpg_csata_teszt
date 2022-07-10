@@ -1,0 +1,78 @@
+body
+{
+    background-image : linear-gradient(black,darkcyan,black);
+    text-align: center;
+    align-items: center;
+    height: 632px;
+}
+
+#screen
+{
+    background-color : black;
+    width: 640px;
+    height: 480px;
+    margin:auto;
+    border-style: inset;
+    border-width: 10px;
+}
+
+#scene
+{
+    height: 70%;
+    width: 100%;
+    color:white;
+}
+
+#panel
+{
+    background-color: darkblue;
+    color: white;
+    height:30%;
+    width: 100%;
+}
+
+#monster
+{
+    width: 15%;
+    height: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+#statspanel
+{
+    text-align: left;
+}
+
+#enemystatspanel
+{
+    text-align: left;
+}
+
+#dialogpanel
+{
+    float: right;
+    width: 0%;
+    text-align: left;
+    color: rgba(0,0,0,0);
+    transition:1s;
+}
+
+@keyframes typing 
+{
+    from { width: 0%; }
+    to { width : 100%; }
+}
+
+#dialogpanel.finished
+{
+    width: 80%;
+    color : white;
+    transition: 1s;
+}
+
+#cucctarto
+{
+   position : absolute;
+   margin-left: 50%;
+}
